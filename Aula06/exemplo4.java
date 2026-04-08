@@ -1,3 +1,4 @@
+package Aula06;
 public class exemplo4 {
     public static void main(String[] args) {
         
