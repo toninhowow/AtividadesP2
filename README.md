@@ -41,6 +41,7 @@ Para compilar e rodar qualquer um dos códigos deste repositório, você precisa
 
 **1.** Clone este repositório no seu terminal:
 ```bash
-git clone [https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git](https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git)
+git clone https://github.com/toninhowow/AtividadesP2.git
+```
 2. Abra a pasta do projeto na sua IDE de preferência (Eclipse, IntelliJ IDEA, VS Code, NetBeans, etc.).
 3. Navegue até o pacote desejado e execute o arquivo que contém o método main.
