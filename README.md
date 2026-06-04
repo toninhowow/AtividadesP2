@@ -1,43 +1,46 @@
-📚 Atividades de Programação 2 - UFRPE
-Este repositório contém todas as minhas resoluções para as listas de exercícios e atividades práticas da disciplina de Programação 2, ministrada pelo Prof. Anderson Cavalcanti na UFRPE.
+<div align="center">
+  <h1>📚 Atividades de Programação 2 - UFRPE</h1>
+  <p><i>Repositório com as resoluções das listas de exercícios e atividades práticas da disciplina de Programação 2, ministrada pelo Prof. Anderson Cavalcanti.</i></p>
+  
+  ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+</div>
 
-Os códigos foram desenvolvidos em Java e documentam o meu progresso prático, indo desde a revisão de lógica de programação até conceitos de Orientação a Objetos.
+<br>
 
-🚀 Tópicos Abordados
-Durante as atividades, os seguintes conceitos foram aplicados na prática:
+# 🚀 Tópicos Abordados
 
-Lógica Básica: Estruturas de decisão (if/else, switch) e operadores matemáticos.
+Durante o desenvolvimento destas atividades, os seguintes conceitos foram estudados e aplicados na prática:
 
-Laços de Repetição: for, while, do-while e foreach.
+* **Lógica Básica:** Estruturas de controle de fluxo (`if/else`, `switch`) e operadores lógicos/matemáticos.
+* **Laços de Repetição:** Estruturas iterativas como `for`, `while`, `do-while` e `foreach`.
+* **Estruturas de Dados:** Manipulação, iteração e busca em Arrays (Vetores).
+* **Introdução à POO:** Criação de Classes (moldes), instanciação de Objetos, Atributos, Métodos e Construtores.
+* **Encapsulamento:** Uso de modificadores de acesso (`private`, `public`) e métodos `getters`/`setters` para validação de regras de negócio.
+* **Relações entre Classes:** Aplicação de Herança (`extends`), reuso de código via `super()` e Polimorfismo (`@Override`).
+* **Coleções Dinâmicas:** Gerenciamento de listas flexíveis utilizando a classe `ArrayList`.
 
-Estruturas de Dados: Manipulação e iteração de Arrays (Vetores).
+---
 
-Introdução à POO: Criação de Classes (moldes), Atributos, Métodos e Construtores.
+# 📂 Principais Exercícios
 
-Encapsulamento: Uso de modificadores de acesso (private, public) e métodos getters e setters com validação de regras de negócio.
+Os arquivos estão organizados em pacotes (ex: `Aula09P5`, `Aula16P9`). Alguns dos projetos de destaque incluem:
 
-Relações entre Classes: Herança (extends), reuso de código via super() e Polimorfismo (@Override).
+> **1. Lógica e Arrays:** > Verificador de idade para votação, cálculo de desconto em combustível, busca de maior valor em vetores e contadores de números pares/ímpares.
 
-Coleções Dinâmicas: Gerenciamento de listas dinâmicas utilizando ArrayList.
+> **2. POO Básica:** > Criação das classes `Produto`, `Aluno` e `Retangulo` para praticar o encapsulamento de informações e métodos customizados.
 
-📂 Principais Exercícios
-Os arquivos estão organizados em pacotes (ex: Aula09P5, Aula16P9). Alguns dos exercícios de destaque incluem:
+> **3. Lista de Compras Dinâmica:** > Um menu interativo via terminal para adicionar, listar e remover itens utilizando a estrutura `ArrayList` e controle de exceções básicas de índice.
 
-Lógica e Arrays: Verificador de idade para votação, cálculo de desconto em combustível, busca de maior valor em arrays e contadores pares/ímpares.
+> **4. Sistema de RH (POO Avançada):** > Aplicação prática de Herança e Polimorfismo. Criação de uma superclasse `Funcionario` e subclasses específicas (`Gerente` e `Atendente`), possuindo regras e bonificações diferentes para o cálculo de salário.
 
-POO Básica: Criação das classes Produto, Aluno e Retangulo para praticar instanciação e métodos customizados.
+---
 
-Lista de Compras Dinâmica: Um menu interativo rodando no terminal para adicionar, listar e remover itens usando ArrayList.
+# 🛠️ Como Executar
 
-Sistema de RH (POO Avançada): Aplicação de Herança e Polimorfismo com a superclasse Funcionario e as subclasses Gerente e Atendente, possuindo regras diferentes para o cálculo de salário.
+Para compilar e rodar qualquer um dos códigos deste repositório, você precisará ter o **JDK (Java Development Kit)** instalado na sua máquina.
 
-🛠️ Como Executar
-Para rodar qualquer um dos códigos deste repositório, você precisará ter o Java Development Kit (JDK) instalado na sua máquina.
-
-Clone este repositório no seu terminal:
-
-No Bash faça:
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
-Abra a pasta do projeto na sua IDE favorita (Eclipse, IntelliJ, VS Code, etc.).
-
-Navegue até o pacote desejado e execute o arquivo que contém o método main.
+**1.** Clone este repositório no seu terminal:
+```bash
+git clone [https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git](https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git)
+2. Abra a pasta do projeto na sua IDE de preferência (Eclipse, IntelliJ IDEA, VS Code, NetBeans, etc.).
+3. Navegue até o pacote desejado e execute o arquivo que contém o método main.
